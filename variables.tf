@@ -31,10 +31,10 @@ variable "image_id" {
 
 variable "az_name" {
   description = "Provide AZ name as per Region to launch Instance"
-  default = "us-east-2"
+  default = "ap-south-1"
 }
 
 variable "keyname" {
   description = "Provide SSH key name"
-  default = "dev"
+  default = "nano"
 }
