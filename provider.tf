@@ -11,7 +11,4 @@ provider "aws" {
   region = "us-east-2"
   # Configuration options
 }
- lifecycle {
-    ignore_changes = ["Not associate_public_ip_address"]
-  }
-}
+
